@@ -126,4 +126,6 @@ window.main_term = () => {
 
     const ioController = new XTermIO({ term, pty });
     ioController.bind();
+
+    term.focus();
 };
