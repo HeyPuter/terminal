@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Puter Technologies Inc.",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0-only",
   "type": "module",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
