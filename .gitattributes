@@ -1,2 +1,4 @@
 license-checker-config.json -text
+license-checker-config.json linguist-generated=true
 license-checker-config.json linguist-detectable=false
+license-checker-config.json diff=collapsed
