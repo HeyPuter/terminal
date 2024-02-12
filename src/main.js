@@ -106,7 +106,9 @@ window.main_term = () => {
             );
             cw.postMessage({
                 $: 'config',
-                source: `https://api.${params['puter.domain']}/`,
+                source: params['puter.domain']
+                    ? `https://api.${params['puter.domain']}/`
+                    : 'https://api.puter.com/',
                 ...params
             }, shellOrigin);
             if ( initialSize ) cw.postMessage({
