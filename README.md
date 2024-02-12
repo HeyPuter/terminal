@@ -1,6 +1,22 @@
-<h3 align="center"><img width="300" alt="HiTIDE logo" src="./doc/logo.png"></h3>
+<h3 align="center"><img width="150" alt="HiTIDE logo" src="./doc/logo.png"></h3>
 <h3 align="center">Puter Terminal Emulator</h3>
-<h4 align="center">Connecting commands; conquering clouds.</h4>
+<p align="center">
+    <a href="https://puter.com/app/terminal"><strong>« LIVE DEMO »</strong></a>
+    <br />
+    <br />
+    <a href="https://puter.com">Puter.com</a>
+    ·
+    <a href="https://discord.gg/ENDtnd9N">Discord</a>
+    ·
+    <a href="https://reddit.com/r/puter">Reddit</a>
+    ·
+    <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
+</p>
+
+<h3 align="center"><img width="751" alt="Screenshot 2024-02-11 at 9 39 56 PM" src="https://github.com/HeyPuter/terminal/assets/1715019/bd943ce8-0bf7-414c-ae9e-34205fcd8b6b">
+</h3>
+<h4 align="center">"Connecting commands; conquering clouds!"</h4>
+
 <hr>
 
 This is a terminal emulator that connects to remote shells using
