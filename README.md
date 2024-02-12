@@ -32,3 +32,9 @@ You can run it with Puter's shell, [phoenix](https://github.com/HeyPuter/phoenix
    ```
    dev-runner ./run-phoenix-http.json5
    ```
+5. Navigate to [http://127.0.0.1:8082](http://127.0.0.1:8082),
+   and use the `login` command to access files on puter.com.
+
+   **Note:** You will need to ensure the login popup is allowed.
+   If you choose to allow it _after_ the popup was blocked,
+   it will break; you need to allow always and then reload.
