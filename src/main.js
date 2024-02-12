@@ -74,6 +74,37 @@ class XTermIO {
     }
 }
 
+const TRUSTED_ORIGINS = [
+    'https://puter.com',
+    'https://github.com',
+];
+
+/*
+ * Replaces xterm.js's default link handler to avoid warning users when we link
+ * to trusted origins.
+ */
+const linkHandler = {};
+linkHandler.activate = (e, url) => {
+    // check for trusted origins
+    const uri = new URL(url);
+    if ( ! TRUSTED_ORIGINS.includes(uri.origin) ) {
+        const answer = confirm(`Do you want to navigate to ${uri}?\n\nWARNING: This link could potentially be dangerous`);
+        if ( ! answer ) return;
+    }
+    const newWindow = window.open();
+    if ( ! newWindow ) {
+        console.warn('Opening link blocked as opener could not be cleared');
+        return;
+    }
+    try {
+        newWindow.opener = null;
+    } catch {
+        // no-op, Electron can throw
+    }
+    newWindow.document.write('Redirecting from Puter Terminal...');
+    newWindow.location.href = uri;
+}
+
 window.main_term = () => {
     const pty = new PTY();
     const ptt = pty.getPTT();
@@ -123,7 +154,9 @@ window.main_term = () => {
     termEl.id = 'terminal';
 
     document.body.append(termEl);
-    const term = new Terminal();
+    const term = new Terminal({
+        linkHandler,
+    });
     term.open(document.getElementById('terminal'));
 
     const fitAddon = new FitAddon();
