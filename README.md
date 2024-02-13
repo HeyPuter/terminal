@@ -19,14 +19,30 @@
 
 <hr>
 
-This is a terminal emulator that connects to remote shells using
-a protocol built on cross-document messaging. The philosophy and
-scope of this project can be described as follows:
-- Be a good terminal emulator (built on `xtermjs`)
-- Leverage secure technologies in the browser
-- Evolve toward connectedness, and not complexity
+This is a [Puter](https://puter.com)-compatible pure-javascript terminal emulator
+built on [xtermjs](https://xtermjs.org/).
+It integrates with an external shell provider.
+We develop and test the terminal emulator alongside [Puter's shell: phoenix](https://github.com/HeyPuter/phoenix).
 
-## Running with Phoenix
+## The Terminal as a Whole
+
+This terminal emulator alongside `phoenix` give you an AGPL-3.0-licensed pure-javascript
+terminal experience which integrates with Puter's cloud filesystem, AI services, and more.
+
+Here are a few examples of what you can do:
+- `ai "write me a story"`
+- `txt2img "a blue computer on a cloud" > puter.png`
+- `neofetch`
+- `echo $(echo "command substitution")`
+- `cat example.txt | grep "find me"`
+- `cat example.json | jq "name"`
+
+## Quickstart
+
+**Note:** we've released Puter's terminal and shell very recently, so you may
+run into some hurdles.
+If you encounter any inconvenience we'd greatly appreciate
+[an issue report](https://github.com/HeyPuter/terminal/issues/new).
 
 The terminal emulator needs a shell to communicate with.
 You can run it with Puter's shell, [phoenix](https://github.com/HeyPuter/phoenix).
