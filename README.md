@@ -13,7 +13,7 @@
     <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
 </p>
 
-<h3 align="center"><img width="751" alt="animated demo" src="./doc/readme-gif.gif">
+<h3 align="center"><img alt="animated demo" src="./doc/readme-gif.gif">
 </h3>
 
 <hr>
