@@ -13,7 +13,7 @@
     <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
 </p>
 
-<h3 align="center"><img width="751" alt="Screenshot 2024-02-11 at 9 39 56 PM" src="https://github.com/HeyPuter/terminal/assets/1715019/bd943ce8-0bf7-414c-ae9e-34205fcd8b6b">
+<h3 align="center"><img width="751" alt="animated demo" src="./doc/readme-gif.gif">
 </h3>
 
 <hr>
