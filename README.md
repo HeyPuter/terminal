@@ -15,7 +15,6 @@
 
 <h3 align="center"><img width="751" alt="Screenshot 2024-02-11 at 9 39 56 PM" src="https://github.com/HeyPuter/terminal/assets/1715019/bd943ce8-0bf7-414c-ae9e-34205fcd8b6b">
 </h3>
-<h4 align="center">"Connecting commands; conquering clouds!"</h4>
 
 <hr>
 
@@ -27,7 +26,7 @@ We develop and test the terminal emulator alongside [Puter's shell: phoenix](htt
 ## The Terminal as a Whole
 
 This terminal emulator alongside `phoenix` give you an AGPL-3.0-licensed pure-javascript
-terminal experience which integrates with Puter's cloud filesystem, AI services, and more.
+terminal experience which integrates with Puter's filesystem, AI services, and more.
 
 Here are a few examples of what you can do:
 - `ai "write me a story"`
