@@ -6,7 +6,7 @@
     <br />
     <a href="https://puter.com">Puter.com</a>
     ·
-    <a href="https://discord.gg/ENDtnd9N">Discord</a>
+    <a href="https://discord.com/invite/PQcx7Teh8u">Discord</a>
     ·
     <a href="https://reddit.com/r/puter">Reddit</a>
     ·
